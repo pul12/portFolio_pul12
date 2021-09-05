@@ -1,0 +1,453 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;		
+}
+
+
+
+.TOP{
+    height: 100px;
+    text-align: center;
+    background-color:lemonchiffon;
+}
+
+
+
+/*-----メニューバー----*/
+
+
+nav ul{
+display: table;
+margin: 0 auto;
+padding: 10% ;
+width: 70%;
+height: 100%;
+text-align: center;
+}
+nav li{
+display: table-cell;
+min-width: 50px;
+}
+nav a{
+display: block;
+width: 100%;
+text-decoration: none;
+color: #555;
+padding-bottom: 5px;
+}
+nav li.current{
+border-bottom: 3px solid #d8bfd8;
+}
+nav li:hover{
+color: #E7DA66;
+border-bottom: 3px solid #F0E475;
+}
+
+
+
+
+
+/*---------------------------------------*/
+
+
+.animeheader{
+    height: 60px;
+    text-align: center;
+    background-color:lavender;
+}
+	
+.content{
+	position: relative;
+    margin: 10px 0 10px 0;
+    display: flex;
+}
+
+
+.animeimage1{
+    width: 25%;
+    height: 170px;
+    background-color:wheat;
+    text-align: center;
+    margin: 10px;
+
+}
+
+.image{
+    width: 25%;
+    height: 170px;
+    margin: 10px;
+}
+
+.video{
+    width: 25%;
+    height: 170px;
+    margin: 10px;
+}
+	
+.animefooter{
+    height: 70px;
+    text-align: center;
+    background-color: #eee;
+}
+
+
+.p1{
+	
+	color:olivedrab;
+}
+
+
+
+.content p1{
+
+  position: absolute;
+  top: 50%;
+  left: 12%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+	color:#666633;
+  /*文字の装飾は省略*/
+ 	
+}
+
+
+.content p2{
+
+  position: absolute;
+  top: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+	color:#666633;
+  /*文字の装飾は省略*/
+ 	
+}
+
+
+/*------game------*/
+
+.gameheader2{
+    height: 60px;
+    text-align: center;
+    background-color:#fff0f5;
+}
+
+
+.gameimage2{
+    width: 25%;
+    height: 170px;
+    background-color:lightblue;
+    text-align: center;
+    margin: 10px;
+
+}
+
+
+
+.content p3{
+
+  position: absolute;
+  top: 50%;
+  left: 12%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+	color:#666699;
+  /*文字の装飾は省略*/
+ 	
+}
+
+
+.content p4{
+
+  position: absolute;
+  top: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+	color:#666699;
+  /*文字の装飾は省略*/
+ 	
+}
+
+
+/*------insatu------*/
+
+.insatuheader3{
+    height: 60px;
+    text-align: center;
+    background-color:cornsilk;
+}
+
+
+.insatuimage5{
+    width: 25%;
+    height: 170px;
+    background-color:gainsboro;
+    text-align: center;
+    margin: 10px;
+
+}
+
+
+
+
+.content p8{
+
+  position: absolute;
+  top: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+	color:#666633;
+  /*文字の装飾は省略*/
+ 	
+}
+
+
+
+/*------syumi------*/
+
+
+
+.syumiheader3{
+    height: 60px;
+    text-align: center;
+    background-color:#ffe4e1;
+}
+
+
+.syumiimage4{
+    width: 25%;
+    height: 170px;
+    background-color:antiquewhite;
+    text-align: center;
+    margin: 10px;
+
+}
+
+
+h4{
+	color: #696969;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.content p5{
+
+  position: absolute;
+  top: 50%;
+  left: 12%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+	color:#663333;
+  /*文字の装飾は省略*/
+ 	
+}
+
+
+.content p6{
+
+	position: absolute;
+	top: 50%;
+	-ms-transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+	margin:0;
+	padding:0;
+	color:#663333;
+  /*文字の装飾は省略*/
+ 	
+}
+
+
+/*------syumi222------*/
+
+.syumiheader4{
+    height: 60px;
+    text-align: center;
+    background-color:#ffe4e1;
+}
+
+
+
+
+
+
+
+
+h4{
+	color: #696969;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.content p7{
+
+	position: absolute;
+	top: 50%;
+	left: 12%;
+	-ms-transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+	margin:0;
+	padding:0;
+	color:#663333;
+  /*文字の装飾は省略*/
+ 	
+}
+
+
+.content p8{
+	position: absolute;
+	top: 50%;
+	-ms-transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+	margin:0;
+	padding:0;
+	color:#666633;
+  /*文字の装飾は省略*/
+ 	
+}
+
+.syumiimage5{
+    width: 25%;
+    height: 170px;
+    background-color:antiquewhite;
+    text-align: center;
+    margin: 10px;
+	
+}
+
+.content p9{
+
+	position: absolute;
+	top: 50%;
+	left: 12%;
+	-ms-transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+	margin:0;
+	padding:0;
+	color:#663333;
+  /*文字の装飾は省略*/
+ 	
+}
+
+.content p10{
+
+	position: absolute;
+	top: 50%;
+	-ms-transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+	margin:0;
+	padding:0;
+	color:#663333;
+  /*文字の装飾は省略*/
+ 	
+}
+
+
+
+
+/*---TOP--*/
+
+
+.content_TOP{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+	vertical-align:center;
+}
+
+
+
+/*---PROFILE--*/
+
+
+/*枠デザイン*/
+.profile_box {
+padding: 1% 5%;
+margin: 5px  auto;
+color: #565656;
+background: #f0e3f4;
+box-shadow: 0px 0px 0px 10px #f0e3f4;
+border: dashed 2px #acacff;
+border-radius: 8px;
+
+}
+.profile_box .box-title {
+font-size: 18px;
+line-height:1.8;
+background: #cca3da; /*タイトルの背景色*/
+padding: 5px;
+text-align: center;
+color: #FFF; /*文字色*/
+font-weight: bold;
+letter-spacing: 0.05em;
+border-radius: 8px;
+}
+/*内容*/
+.profile_center{
+text-align: center;
+margin: 5% 0% 0 0;
+}
+/*プロフィール画像*/
+.profile_figure {
+width:150px;
+height:150px;
+border-radius: 50%; /*丸くする*/
+border: solid 3px #acacff; /*枠線*/
+}
+/*名前*/
+.profile_name {
+padding: 15px 20px;
+font-weight:bold;
+font-size:16px;
+}
+/*自己紹介文*/
+.profile_box p7 {
+padding: 18px 20px;
+margin: 0;
+
+}
+/*リスト*/
+.profile_box ul.profile{
+padding: 5% 1% 5% 2.3%;
+position: relative;
+margin: 0% auto;
+	align-items: center;
+color: #565656;
+}
+.profile_box ul.profile li.pro{
+line-height: 1.5;
+padding: 0.5px 0;
+list-style-type: none!important;
+text-align: center;
+}
+.profile_box ul.profile li.pro:before {
+font-family: "Font Awesome 5 Free";
+font-weight:900;
+position: absolute;
+left : 1px;/*左端からのアイコンまでの距離*/
+color:#baa0ca ;/*アイコン色*/
+}
+
